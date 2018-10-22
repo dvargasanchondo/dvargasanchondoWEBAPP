@@ -123,14 +123,6 @@ lim.dropdown {
 
 }
 
-.round2 {
-  border-top: 6px solid #00009a;
-
-  border-bottom: 6px solid #00009a;
-
-}
-
-
 </style>
 
 <!--topright mini menu bar-->
@@ -138,24 +130,25 @@ lim.dropdown {
 <p1><div class="topright">
   <li><a href="#home">Home</a></li>
   <li><a href="#contact">Contact</a></li>
-  <li><a href="about.html">About</a></li>
+  <li><a href="#about">About</a></li>
   <li><a href="#login">Log In</a></liv>
 </div></p1>
 
 <!--Header Logo with name-->
 
 <header class="dashboardHeader">
-<div style="position: relative;z-index:1000;" class="center"><a href="/"><img class="logoDash" src="Logo.png" width="320" height="240"/></a></div>
+<div style="position: relative;z-index:1000;" class="center"><a href="Home Page.html"><img class="logoDash" src="Logo.png" width="320" height="240"/></a></div>
 
 </header>
 
 </head>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
 <!--dropdown menu-->
 <body>
   <div style="position: relative;z-index:900;" class="center1">
   <ul>
-    <lim><a href="#home">Home</a></lim>
+    <lim><a href="Home Page.html">Home</a></lim>
     <lim style="float:right"><a href="#login">Log In</a></lim>
     <lim class="dropdown">
       <a href="javascript:void(0)" class="dropbtn">Parts</a>
@@ -167,37 +160,10 @@ lim.dropdown {
     </lim>
     <lim><a href="#home">Clearance</a></lim>
     <lim style="float:right"><a href="#home">Contact</a></lim>
-    <lim style="float:right"><a href="About.html">About Us</a></lim>
+    <lim style="float:right"><a href="#home">About Us</a></lim>
   </ul>
-  <div class="round2" class="w3-content w3-section" style="max-width:1600px">
-
-    <img class="mySlides w3-animate-fading" src="lambo.jpg" style="width:100%">
-    <img class="mySlides w3-animate-fading" src="bugat.jpg" style="width:100%">
-    <img class="mySlides w3-animate-fading" src="fer.jpg" style="width:100%">
   </div>
-
-  </div>
-
-
-
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 9000);
-}
-</script>
-
+<h1 class="dashTitle">Euro Sport</h1>
 
 </body>
 </html>
