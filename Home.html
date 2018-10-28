@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+
+
+
+.border {
+    fill: 15px solid blue;
+  }
+
+.topright {
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+.center {
+  position:relative;
+  center top:0;
+
+
+}
+
+.center1 {
+  position:relative;
+  center top:0;
+  bottom:150px;
+
+}
+
+body {
+    background-color: white;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(top,  #262261,  #00009a);
+  background: -ms-linear-gradient(top,  #262261,  #00009a);
+  background: -webkit-gradient(linear, left top, left bottom, from(#262261), to(#00009a));
+  background: -moz-linear-gradient(top,  #262261,  #00009a);
+}
+
+lim {
+    float: left;
+}
+
+lim a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+lim a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+lim.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dashboardHeader {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashTitle {
+  font-family: Futura PT;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  position: center;
+  font-size: 72px;
+}
+
+.dash-line {
+  width: 100%;
+}
+
+.absolute {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    top: 650px;
+    right: 0;
+    width: 500px;
+    height: 100px;
+    padding: 5px;
+
+}
+
+.round2 {
+  border-top: 6px solid #00009a;
+
+  border-bottom: 6px solid #00009a;
+
+}
+.breaking{
+    width:500px;
+    word-wrap: break-word;
+}
+
+
+</style>
+
+<!--topright mini menu bar-->
+
+<p1><div class="topright">
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="Login.html">Log In</a></liv>
+</div></p1>
+
+<!--Header Logo with name-->
+
+<header class="dashboardHeader">
+<div style="position: relative;z-index:1000;" class="center"><a href="Home.html"><img class="logoDash" src="Logo.png" width="320" height="240"/></a></div>
+
+</header>
+
+</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--dropdown menu-->
+<body>
+  <div style="position: relative;z-index:900;" class="center1">
+  <ul>
+    <lim><a href="Home.html">Home</a></lim>
+    <lim style="float:right"><a href="Login.html">Log In</a></lim>
+    <lim class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Parts</a>
+      <div class="dropdown-content">
+        <a href="bmwparts.html">BMW Parts</a>
+        <a href="ferrariparts.html">Ferrari Parts</a>
+        <a href="mercedesparts.html">Mercedes Parts</a>
+      </div>
+    </lim>
+    <lim><a href="Clearance.html">Clearance</a></lim>
+    <lim style="float:right"><a href="Contact.html">Contact</a></lim>
+    <lim style="float:right"><a href="About.html">About Us</a></lim>
+  </ul>
+  <div class="round2" class="w3-content w3-section" style="max-width:1600px">
+
+    <img class="mySlides w3-animate-fading" src="lambo.jpg" style="width:100%">
+    <img class="mySlides w3-animate-fading" src="bugat.jpg" style="width:100%">
+    <img class="mySlides w3-animate-fading" src="fer.jpg" style="width:100%">
+  </div>
+
+  </div>
+
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 9000);
+}
+</script>
+<div class ="breaking>">
+  Lorem ipsum dolor sit amet, natum interesset necessitatibus mea no, ex vix dolores temporibus, ei saperet epicurei vulputate per. Ius augue dictas conceptam cu. Te ius simul scripserit, et per dolore legimus. Praesent posidonium ut vis, et augue aliquid contentiones eos, nam harum assueverit constituam ad. Utroque nonumes ex mel, probo sanctus his eu. Sententiae cotidieque pro te.
+
+Ne per iudico ornatus conclusionemque, ex ullum graeci vix. Cu augue integre vivendum pro, nec eripuit complectitur in. Ad mea idque imperdiet, nihil accumsan in sea, solum mundi utroque id per. Nam at placerat efficiantur, iudicabit persequeris nam te. Vis eu molestie fabellas, at dicam scaevola tacimates cum, id vix nisl officiis facilisi.
+
+At quando insolens voluptaria pri. Qualisque elaboraret eam ne. Vis lorem intellegat ex, est graeco senserit at. No nec tantas conclusionemque, ut nam tale sumo mazim, est habeo quidam te. Mea ex veri conceptam, cum minim possim ad.
+
+No copiosae legendos quo, ius ubique postea imperdiet at, utroque nominati dignissim mel ut. Sit vidit sensibus cu. Liber persequeris quo ea, duo affert tempor platonem ex. An est modo possim, ea ferri reque detraxit sea, eos ei dico aperiri patrioque.
+
+Mei affert offendit eleifend no, duo id nominati gubergren dissentiet. Mea modo paulo no. Cum mucius habemus in, errem scripta gubergren ei qui. Omnis inani dolores ne usu, te munere option per. Pro eu decore alterum consequat, elitr impedit sit ne. Usu ut zril possit qualisque, cu quaestio consulatu interpretaris eum.
+
+Eu minim veritus sensibus cum, admodum accumsan definitiones usu in, cu nam fuisset inciderint. Ius id nostro docendi quaestio, at magna consulatu duo, error scripta efficiendi et has. At mei vide veniam temporibus. Te augue facilisis democritum qui. Elit oblique veritus an nec, te vel suas sonet. Nusquam qualisque ei est, te pri tale eruditi.
+
+Sea meis bonorum corpora at, mel in meis legere primis. Vim cu putant placerat, eum ei cetero alienum offendit. No qui offendit hendrerit efficiantur, eos in postea viderer eloquentiam. Ne est option urbanitas, cu vel dissentias scripserit. Ex omnium labores per. Ex commodo aliquip equidem has.
+
+No dicta dictas mei, ea duo sonet aeterno postulant. Omnis nulla detraxit et per. His fuisset placerat splendide ne, sit nostro fastidii ex. Iusto officiis ut eam. In bonorum alienum pro, et falli indoctum interpretaris pro, eu ludus persecuti vituperatoribus eos. Lorem nullam definitionem te eam, summo partiendo mei no.
+
+In postulant reprimique eos. Vidisse dignissim intellegam vis ea, et regione conceptam intellegebat ius, his et tibique verterem. At qui corpora scriptorem, qui esse deseruisse at. Sea eripuit invenire forensibus at. Ludus aeterno feugiat qui et.
+
+Vim oportere periculis ex. Sea quando electram explicari et, mei vitae dolorum te, dictas eripuit laboramus no eum. Nam te porro omittantur. Duo eu nemore discere principes, malis fugit an quo, no mel zril molestiae interpretaris. Graeci aeterno adipisci pro ei, posse apeirian mel ne.
+
+Lorem ipsum dolor sit amet, natum interesset necessitatibus mea no, ex vix dolores temporibus, ei saperet epicurei vulputate per. Ius augue dictas conceptam cu. Te ius simul scripserit, et per dolore legimus. Praesent posidonium ut vis, et augue aliquid contentiones eos, nam harum assueverit constituam ad. Utroque nonumes ex mel, probo sanctus his eu. Sententiae cotidieque pro te.
+
+Ne per iudico ornatus conclusionemque, ex ullum graeci vix. Cu augue integre vivendum pro, nec eripuit complectitur in. Ad mea idque imperdiet, nihil accumsan in sea, solum mundi utroque id per. Nam at placerat efficiantur, iudicabit persequeris nam te. Vis eu molestie fabellas, at dicam scaevola tacimates cum, id vix nisl officiis facilisi.
+
+At quando insolens voluptaria pri. Qualisque elaboraret eam ne. Vis lorem intellegat ex, est graeco senserit at. No nec tantas conclusionemque, ut nam tale sumo mazim, est habeo quidam te. Mea ex veri conceptam, cum minim possim ad.
+
+No copiosae legendos quo, ius ubique postea imperdiet at, utroque nominati dignissim mel ut. Sit vidit sensibus cu. Liber persequeris quo ea, duo affert tempor platonem ex. An est modo possim, ea ferri reque detraxit sea, eos ei dico aperiri patrioque.
+
+Mei affert offendit eleifend no, duo id nominati gubergren dissentiet. Mea modo paulo no. Cum mucius habemus in, errem scripta gubergren ei qui. Omnis inani dolores ne usu, te munere option per. Pro eu decore alterum consequat, elitr impedit sit ne. Usu ut zril possit qualisque, cu quaestio consulatu interpretaris eum.
+
+Eu minim veritus sensibus cum, admodum accumsan definitiones usu in, cu nam fuisset inciderint. Ius id nostro docendi quaestio, at magna consulatu duo, error scripta efficiendi et has. At mei vide veniam temporibus. Te augue facilisis democritum qui. Elit oblique veritus an nec, te vel suas sonet. Nusquam qualisque ei est, te pri tale eruditi.
+
+Sea meis bonorum corpora at, mel in meis legere primis. Vim cu putant placerat, eum ei cetero alienum offendit. No qui offendit hendrerit efficiantur, eos in postea viderer eloquentiam. Ne est option urbanitas, cu vel dissentias scripserit. Ex omnium labores per. Ex commodo aliquip equidem has.
+
+No dicta dictas mei, ea duo sonet aeterno postulant. Omnis nulla detraxit et per. His fuisset placerat splendide ne, sit nostro fastidii ex. Iusto officiis ut eam. In bonorum alienum pro, et falli indoctum interpretaris pro, eu ludus persecuti vituperatoribus eos. Lorem nullam definitionem te eam, summo partiendo mei no.
+
+In postulant reprimique eos. Vidisse dignissim intellegam vis ea, et regione conceptam intellegebat ius, his et tibique verterem. At qui corpora scriptorem, qui esse deseruisse at. Sea eripuit invenire forensibus at. Ludus aeterno feugiat qui et.
+
+Vim oportere periculis ex. Sea quando electram explicari et, mei vitae dolorum te, dictas eripuit laboramus no eum. Nam te porro omittantur. Duo eu nemore discere principes, malis fugit an quo, no mel zril molestiae interpretaris. Graeci aeterno adipisci pro ei, posse apeirian mel ne.
+</div>
+
+</body>
+</html>
